@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SPECIALTY CARE TRANSPORT APPROVED MEDICATION LIST</title>
+    <link rel="stylesheet" href="../css/main.css" />
+  </head>
+  <body>
+    <header>
+      <h2>MARYLAND INSTITUTE FOR EMERGENCY MEDICAL SERVICES SYSTEMS</h2>
+      <address>
+        State Office of Commercial Ambulance Licensing and Regulation <br />
+        653 West Pratt Street, Room 313 <br />
+        Baltimore, Maryland 21201<br />
+
+        <!--//Email link below enables users to send an email with the subject line filled to SOCALR//
+                                //It is specific to to this form-->
+        <a
+          href="mailto:SOCALR@miemss.org?subject=SCT%20medication%20list%20form%20related%20help%20"
+          style="color: rgb(251, 8, 8)"
+          >SOCALR@miemss.org</a
+        ><br />
+        Phone 410-706-8511
+      </address>
+      <div class="logo">
+        <img src="Updated-MIEMSS logo.png" alt="image is not available" />
+      </div>
+    </header>
+
+    <main>
+      <section id="osp-verification">
+        <form action="" method="post">
+          <fieldset>
+            <legend>
+              <em>
+                <strong
+                  >Specialty Care Transport (SCT) Approved Medication
+                  List</strong
+                ></em
+              >
+            </legend>
+            <table id="medications">
+              <tr id="title">
+                <th>Medication Trade Name</th>
+                <th>Medication Generic Name</th>
+                <th>Indication</th>
+                <th>Dosing Range</th>
+                <th>Route</th>
+                <th>Min amt to be carried</th>
+              </tr>
+              <tr id="entryA">
+                <td><input name="entry1" /></td>
+                <td><input name="entry2" /></td>
+                <td><input name="entry3" /></td>
+                <td><input name="entry4" /></td>
+                <td><input name="entry5" /></td>
+                <td><input name="entry6" /></td>
+              </tr>
+              <tr id="entryB">
+                <td><input name="entry1" /></td>
+                <td><input name="entry2" /></td>
+                <td><input name="entry3" /></td>
+                <td><input name="entry4" /></td>
+                <td><input name="entry5" /></td>
+                <td><input name="entry6" /></td>
+              </tr>
+              <tr id="entryC">
+                <td><input name="entry1" /></td>
+                <td><input name="entry2" /></td>
+                <td><input name="entry3" /></td>
+                <td><input name="entry4" /></td>
+                <td><input name="entry5" /></td>
+                <td><input name="entry6" /></td>
+              </tr>
+              <tr id="entryD">
+                <td><input name="entry1" /></td>
+                <td><input name="entry2" /></td>
+                <td><input name="entry3" /></td>
+                <td><input name="entry4" /></td>
+                <td><input name="entry5" /></td>
+                <td><input name="entry6" /></td>
+              </tr>
+            </table>
+            <div class="addbtnSCTM">
+              <button type="button" class="add_field">
+                <span class="add_icon"
+                  ><ion-icon name="add-circle-outline"></ion-icon
+                ></span>
+                <span class="addbtn_txt">Add Row</span>
+              </button>
+            </div>
+
+            <div class="SCT-memo">
+              <p>
+                1. &nbsp List of medications in addition to those required by
+                the Maryland Medical Protocols for EMS Providers<br />
+                must be approved by the service’s SCT Medical Director. The
+                medications and list shall be carried on board the ambulance
+                when in service for an SCT transport
+              </p>
+              <p>
+                2. &nbsp Sufficient quantities of medications shall be carried
+                to care for the patient for the longer of one hour or two times
+                the estimated time of transport.
+              </p>
+            </div>
+          </fieldset>
+          <fieldset>
+            <div class="SCT-signature">
+              <label style="color: red; font-size: 14px">
+                <strong
+                  >SCT Medical Director’s Signature (Full Name)</strong
+                ></label
+              >
+              <input name="App signture" />
+
+              <label>Date:</label>
+              <input name="Date" />
+            </div>
+          </fieldset>
+        </form>
+
+        <div class="navbtnsSCTM">
+          <button type="button" class="prevbtn">
+            <span class="prevbtn_icon"
+              ><ion-icon name="skip-backward"></ion-icon
+            ></span>
+            <span class="prevbtn_txt">Previous</span>
+          </button>
+
+          <button type="save" class="save">
+            <span class="save_txt">Save</span>
+            <span class="save_icon"><ion-icon name="save"></ion-icon></span>
+          </button>
+
+          <button type="submit" class="submit">
+            <span class="submit_txt">Submit</span>
+            <span class="submit_icon"
+              ><ion-icon name="logo-dropbox"></ion-icon
+            ></span>
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
+</html>

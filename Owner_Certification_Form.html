@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Owner Certification Form</title>
+    <link rel="stylesheet" href="../css/main.css" />
+  </head>
+  <body>
+    <header>
+      <h2>MARYLAND INSTITUTE FOR EMERGENCY MEDICAL SERVICES SYSTEMS</h2>
+      <address>
+        State Office of Commercial Ambulance Licensing and Regulation <br />
+        653 West Pratt Street, Room 313 <br />
+        Baltimore, Maryland 21201<br />
+        <!--//OA NOTE:Email link below enables users to send an email with the subject line filled to SOCALR//
+                                //It is specific to to this form (click on the email to see)-->
+        <a
+          href="mailto:SOCALR@miemss.org?subject=Owner%20certification%20form%20related%20help%20"
+          style="color: rgb(251, 8, 8)"
+          >SOCALR@miemss.org</a
+        ><br />
+        Phone 410-706-8511
+      </address>
+      <div class="logo">
+        <img src="Updated-MIEMSS logo.png" alt="image is not available" />
+      </div>
+    </header>
+
+    <main>
+      <section id="OwnerVerify">
+        <form action="" method="post">
+          <fieldset>
+            <legend>
+              <em
+                ><strong
+                  >Commercial Service Owner Certification Form</strong
+                ></em
+              >
+            </legend>
+
+            <p>
+              Have you, any of the principals, owners, operators, managers, or
+              any person in this application ever been
+              <strong>
+                suspended from Medicare or Medicaid, indicted for or convicted
+                of Medicare or Medicaid fraud or any other crime?</strong
+              >
+            </p>
+
+            <input type="radio" name="osp" id="yes 1" value="yes" />
+            <label for="yes 1">
+              <strong>yes</strong>
+            </label>
+
+            <input type="radio" name="osp" id="no 2" value="no" />
+            <label for="no 1">
+              <strong>no</strong>
+            </label>
+
+            <p>
+              If yes, attach an additional sheet that includes: person’s name,
+              title, and details of the event.
+            </p>
+            <input
+              style="padding-left: 50px"
+              type="file"
+              id="myFile"
+              name="filename"
+            />
+
+            <p>
+              <strong>Denied or Revoked:</strong> Have you, any of the
+              principals, owners, operators, managers, or any person in this
+              application ever owned, operated or had a financial interest
+              (directly or indirectly) in any application or license for any
+              Taxi, Limo, Ambulette, Invalid Coach, Mobility Assistance Vehicle,
+              BLS Ambulance, ALS Ambulance or Other Health Care Service or any
+              other business which was denied, revoked, suspended, under
+              indictment for or convicted of Medicare and/or Medicaid fraud or
+              any other crime?
+            </p>
+
+            <input type="radio" name="osp2" id="yes 2" value="yes" />
+            <label for="yes 2">
+              <strong>yes</strong>
+            </label>
+            <input type="radio" name="osp2" id="no 2" value="no" />
+            <label for="no 2">
+              <strong>no</strong>
+            </label>
+
+            <p>
+              (If yes, attach an additional sheet that includes: person’s name,
+              title, address of the service and details of the event)
+            </p>
+
+            <p>
+              By my signature below I hereby affirm under the penalties of
+              perjury that:
+            </p>
+
+            <p>
+              a) There has been no attempt for the purpose of obtaining or
+              attempting to obtain a license, to knowingly and willfully:
+            </p>
+
+            <p>
+              i. Falsify, conceal, or omit a material fact, <br />
+              ii. Make any false, fictitious, incomplete, or fraudulent
+              statements or representations,<br />
+              iii. Make or use any false writing document, or entry knowing the
+              same to contain any false, fictitious, fraudulent statement, and
+            </p>
+
+            <p>
+              b) The signer is authorized by the commercial ambulance service
+              identified on the application to sign the application form to
+              execute the sworn statement.
+            </p>
+
+            <!--OA NOTE: Must include a clause on the document as mentioned in the meeting on 2/2/23 indicating that
+        the users typed name constitutes as a binding signature, Marty said someone (I believe Kelly) was 
+        working on that.-->
+
+            <table>
+              <tr>
+                <div>
+                  <td><label> Title: </label> <input name="App title" /></td>
+                </div>
+              </tr>
+              <tr>
+                <div>
+                  <td>
+                    <label> Signature (Full Name)</label>
+                    <input name="App signture" />
+                  </td>
+                </div>
+              </tr>
+              <tr>
+                <div>
+                  <td><label> Date </label> <input name="App Date" /></td>
+                </div>
+              </tr>
+            </table>
+          </fieldset>
+          <!--OA Note: NEXT INCLUDE THE Appropriate buttons (previous, next, save, submit)-->
+        </form>
+        <div class="navbtnsOwnCert">
+          <button type="button" class="prevbtn">
+            <span class="prevbtn_icon"
+              ><ion-icon name="skip-backward"></ion-icon
+            ></span>
+            <span class="prevbtn_txt">Previous</span>
+          </button>
+
+          <button type="button" class="nextbtn">
+            <span class="nextbtn_txt">Next</span>
+            <span class="nextbtn_icon"
+              ><ion-icon name="skip-forward"></ion-icon
+            ></span>
+          </button>
+
+          <button type="save" class="save">
+            <span class="save_txt">Save</span>
+            <span class="save_icon"><ion-icon name="save"></ion-icon></span>
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
+</html>

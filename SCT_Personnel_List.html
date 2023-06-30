@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SCT Personnel List</title>
+    <link rel="stylesheet" href="../css/main.css" />
+  </head>
+  <body>
+    <header>
+      <h2>MARYLAND INSTITUTE FOR EMERGENCY MEDICAL SERVICES SYSTEMS</h2>
+      <address>
+        State Office of Commercial Ambulance Licensing and Regulation <br />
+        653 West Pratt Street, Room 313 <br />
+        Baltimore, Maryland 21201<br />
+
+        <!--//Email link below enables users to send an email with the subject line filled to SOCALR//
+                                //It is specific to to this form-->
+        <a
+          href="mailto:SOCALR@miemss.org?subject=SCT%20personnel%20list%20related%20help%20"
+          style="color: rgb(251, 8, 8)"
+          >SOCALR@miemss.org</a
+        ><br />
+        Phone 410-706-8511
+      </address>
+      <div class="logo">
+        <img src="Updated-MIEMSS logo.png" alt="image is not available" />
+      </div>
+    </header>
+    <main>
+      <section id="sct-personnel">
+        <form action="" method="post">
+          <fieldset>
+            <legend>
+              <em><strong>Commercial Service SCT Personnel List</strong></em>
+            </legend>
+            <div class="service-id">
+              <label> Service Name:</label>
+              <input name="serviceName" />&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+              &nbsp &nbsp &nbsp &nbsp
+              <label> Date: </label>
+              <input name="serviceDate" />
+            </div>
+
+            <table id="identifications">
+              <tr id="personel-titles">
+                <th>Employee Full Legal Name (PRINTED)</th>
+                <th>
+                  Type of Health Care Certification or License (Choose One)
+                </th>
+                <th>If NRP, Is Provider SCT: (Choose One)</th>
+                <th>Healthcare Certification or License #</th>
+                <th>Certification or License Expiration Date</th>
+              </tr>
+              <tr id="user-input-One">
+                <td><input name="entry1" /></td>
+                <td>
+                  <select
+                    name="CertificationORLicense"
+                    id="CertificationORLicense"
+                  >
+                    <option value="select">Select one</option>
+                    <option value="NP">Nurse Practicioner</option>
+                    <option value="RN">Registered Nurse</option>
+                    <option value="NRP">NR Paramedic</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="providerType" id="providerType">
+                    <option value="select">Select one</option>
+                    <option value="oriented">Oriented</option>
+                    <option value="credentialed">Credentialed</option>
+                  </select>
+                </td>
+                <td><input name="entry4" /></td>
+                <td><input name="entry5" /></td>
+              </tr>
+              <tr id="user-input-two">
+                <td><input name="entry1" /></td>
+                <td>
+                  <select
+                    name="CertificationORLicense"
+                    id="CertificationORLicense"
+                  >
+                    <option value="select">Select one</option>
+                    <option value="NP">Nurse Practicioner</option>
+                    <option value="RN">Registered Nurse</option>
+                    <option value="NRP">NR Paramedic</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="providerType" id="providerType">
+                    <option value="select">Select one</option>
+                    <option value="oriented">Oriented</option>
+                    <option value="credentialed">Credentialed</option>
+                  </select>
+                </td>
+                <td><input name="entry4" /></td>
+                <td><input name="entry5" /></td>
+              </tr>
+              <tr id="user-input-three">
+                <td><input name="entry1" /></td>
+                <td>
+                  <select
+                    name="CertificationORLicense"
+                    id="CertificationORLicense"
+                  >
+                    <option value="select">Select one</option>
+                    <option value="NP">Nurse Practicioner</option>
+                    <option value="RN">Registered Nurse</option>
+                    <option value="NRP">NR Paramedic</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="providerType" id="providerType">
+                    <option value="select">Select one</option>
+                    <option value="oriented">Oriented</option>
+                    <option value="credentialed">Credentialed</option>
+                  </select>
+                </td>
+                <td><input name="entry4" /></td>
+                <td><input name="entry5" /></td>
+              </tr>
+              <tr id="user-input-four">
+                <td><input name="entry1" /></td>
+                <td>
+                  <select
+                    name="CertificationORLicense"
+                    id="CertificationORLicense"
+                  >
+                    <option value="select">Select one</option>
+                    <option value="NP">Nurse Practicioner</option>
+                    <option value="RN">Registered Nurse</option>
+                    <option value="NRP">NR Paramedic</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="providerType" id="providerType">
+                    <option value="select">Select one</option>
+                    <option value="oriented">Oriented</option>
+                    <option value="credentialed">Credentialed</option>
+                  </select>
+                </td>
+                <td><input name="entry4" /></td>
+                <td><input name="entry5" /></td>
+              </tr>
+            </table>
+            <div class="addbtnSCTP">
+              <button type="button" class="add_field">
+                <span class="add_icon"
+                  ><ion-icon name="add-circle-outline"></ion-icon
+                ></span>
+                <span class="addbtn_txt">Add Row</span>
+              </button>
+            </div>
+          </fieldset>
+        </form>
+        <div class="navbtnsSCTP">
+          <button type="button" class="prevbtn">
+            <span class="prevbtn_icon"
+              ><ion-icon name="skip-backward"></ion-icon
+            ></span>
+            <span class="prevbtn_txt">Previous</span>
+          </button>
+
+          <button type="button" class="nextbtn">
+            <span class="nextbtn_txt">Next</span>
+            <span class="nextbtn_icon"
+              ><ion-icon name="skip-forward"></ion-icon
+            ></span>
+          </button>
+
+          <button type="save" class="save">
+            <span class="save_txt">Save</span>
+            <span class="save_icon"><ion-icon name="save"></ion-icon></span>
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
+</html>

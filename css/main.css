@@ -1,0 +1,619 @@
+/*Main[applies to all/most forms]*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: rgb(9, 47, 116);
+  color: #ffffff;
+  padding: 20px;
+}
+
+header h2 {
+  padding-bottom: 10px;
+}
+
+header h3 {
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+header address {
+  font-size: 12px;
+}
+
+.logo img {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  width: 100px;
+  height: 100px;
+  padding: 1px solid rgb(9, 47, 116);
+}
+
+main {
+  padding: 30px;
+}
+
+main p {
+  font-size: smaller;
+  padding-bottom: 5px;
+}
+
+main fieldset legend em {
+  padding-bottom: 20px;
+  font-size: 0.68cm;
+}
+
+/*ADD ROW/ADD FIELD BUTTON*/
+.add_field {
+  width: 10%;
+  display: flex;
+  text-align: center;
+  /*justify-content: space-between;*/
+
+  flex-basis: 48%;
+  background: rgb(171, 176, 176);
+  color: #fff;
+  height: 10px;
+  width: 120px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  /*padding-left: 15px;*/
+  /*padding-right: 5px;*/
+  border-radius: 3px;
+  border: 1px;
+  border-color: black;
+  outline: 0;
+  cursor: pointer;
+  transition: backgroud 1s;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: 20px;
+  overflow: hidden;
+}
+.add_field:hover {
+  background-color: rgb(244, 94, 124);
+  border-color: rgb(203, 68, 95);
+  color: #dddddd;
+}
+.add_field:active {
+  background-color: crimson;
+  border-color: rgb(159, 15, 44);
+  color: #dddddd;
+  border-radius: 3px;
+}
+
+.add_icon {
+  font-size: 1.5em;
+  padding: 0px 5% 5% 0px;
+  align-content: space-evenly;
+  translate: 2px -24px 50px;
+  background: rgba(0, 0, 0, 0.08);
+  padding-top: 16px;
+  padding-bottom: 4px;
+}
+
+.addbtn_txt {
+  display: inline-flex;
+  text-align: center;
+  padding: 0 15px;
+  height: 100%;
+  font-size: 14px;
+  translate: 5px -7px 50px;
+  padding-bottom: 0 px;
+}
+
+/*SUBMIT BUTTON*/
+
+.submit{
+    flex-basis: 48%;
+    background: rgb(171, 176, 176);
+    color: #fff;
+    height: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    border: 1px;
+    border-color: black;
+    outline: 0;
+    cursor: pointer;
+    transition: backgroud 1s;
+    overflow: hidden;
+  }
+
+.submit:hover {
+    background-color: rgb(70, 32, 207);
+    border-color: rgb(11, 14, 100);
+    color: #dddddd;
+  }
+
+  .submit:active{
+    background-color: rgb(11, 14, 100);
+    border-color: rgb(11, 14, 100);
+    color: #dddddd;
+    border-radius: 5px;
+}
+
+.submit_txt{
+    display: inline-flex;
+    text-align: center;
+    padding: 0 15px;
+    height: 100%;
+    font-size: 16px;
+    padding-bottom: 0 px;
+    translate: 5px -3px 50px;
+}
+.submit_icon{
+    font-size: 1.2em;
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    background:rgba(0,0,0,0.07);
+    translate: 5px -5px 50px; 
+}
+
+
+/*SAVE BUTTON*/
+.save {
+  flex-basis: 48%;
+  background: rgb(171, 176, 176);
+  color: #fff;
+  height: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  border-radius: 5px;
+  border: 1px;
+  border-color: black;
+  outline: 0;
+  cursor: pointer;
+  transition: backgroud 1s;
+  overflow: hidden;
+}
+.save:hover {
+    background-color: rgb(234, 114, 40);
+    border-color: rgb(154, 75, 11);
+    color: #dddddd;
+}
+
+.save:active {
+  background-color: rgb(168, 80, 7);
+  border-color:  rgb(154, 75, 11);
+  color: #dddddd;
+  border-radius: 5px;
+}
+
+.save_txt {
+  display: inline-flex;
+  text-align: center;
+  padding: 0 15px;
+  height: 100%;
+  font-size: 16px;
+  padding-bottom: 0 px;
+  translate: 5px -3px 50px;
+}
+.save_icon {
+  font-size: 1.2em;
+  padding-left: 5px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 8px;
+  background: rgba(0, 0, 0, 0.07);
+  translate: 5px -12px 50px;
+}
+
+/*NEXT BUTTON*/
+.nextbtn {
+  flex-basis: 48%;
+  background: rgb(171, 176, 176);
+  color: #fff;
+  height: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  /*padding-left: 10px;
+    padding-right: 10px;*/
+  border-radius: 5px;
+  border: 1px;
+  border-color: black;
+  outline: 0;
+  cursor: pointer;
+  transition: backgroud 1s;
+  overflow: hidden;
+}
+.nextbtn:hover {
+  background-color: #05c312;
+  border-color: rgb(1, 122, 28);
+  color: #dddddd;
+}
+
+.nextbtn:active {
+  background-color: rgb(8, 148, 38);
+  border-color: rgb(1, 122, 28);
+  color: #dddddd;
+}
+.nextbtn_txt {
+  display: inline-flex;
+  text-align: center;
+  padding: 0 15px;
+  height: 100%;
+  font-size: 16px;
+  padding-bottom: 0 px;
+  translate: 5px -3px 50px;
+}
+.nextbtn_icon {
+  font-size: 1.2em;
+  padding-left: 5px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 8px;
+  background: rgba(0, 0, 0, 0.07);
+  translate: 5px -12px 50px;
+}
+
+/*PREVIOUS BUTTON*/
+.prevbtn {
+  flex-basis: 48%;
+  background: rgb(171, 176, 176);
+  color: #fff;
+  height: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  /*padding-left: 15px;
+    padding-right: 15px;*/
+  border-radius: 5px;
+  border: 1px;
+  border-color: black;
+  outline: 0;
+  cursor: pointer;
+  transition: backgroud 1s;
+  overflow: hidden;
+}
+.prevbtn:hover {
+  background-color: #ffc300;
+  border-color: #a78208;
+  color: #dddddd;
+}
+.prevbtn:active {
+  background-color: #a78208;
+  border-color: #a78208;
+  color: #dddddd;
+}
+.prevbtn_icon {
+  font-size: 1.2em;
+  padding-left: 4px;
+  padding-right: 12px;
+  padding-top: 16px;
+  padding-bottom: 8px;
+  background: rgba(0, 0, 0, 0.07);
+  translate: 4px -5px 50px;
+}
+.prevbtn_txt {
+  display: inline-flex;
+  text-align: center;
+  padding: 0 15px;
+  height: 100%;
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: 300;
+  translate: -2px -4px 50px;
+}
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!*************PAGE SPECIFIC CSS STYLES BELOW***************************!!!!!!!!!!!!!!*/
+
+/*INDEX.HTML LOG-IN SCREEN*/
+#log-in-home {
+  background: linear-gradient(135deg, rgb(11, 14, 100), rgb(44, 206, 251));
+  /*background-color: rgb(187, 212, 234);*/
+  height: 100vh;
+  width: 100%;
+}
+.background-img {
+  background: linear-gradient(135deg,  rgb(44, 206, 251), rgb(11, 14, 100));
+  /*background-color: rgb(187, 212, 234);*/
+  height: 100vh;
+  width: 100%;
+}
+.form-box {
+  width: 90%;
+  max-width: 450px;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+  padding: 50px 60px 70px;
+}
+
+.form-box h3 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.log-on h2 {
+  color: rgb(0, 0, 0);
+  padding-bottom: 10px;
+  padding: 25px;
+  background-color: #ffffff;
+  border: rgb(51, 175, 224) 4px;
+  font-family: "Roboto", sans-serif;
+  font-stretch: expanded;
+}
+.log-on h2 {
+  text-align: center;
+}
+.login-input {
+  background: #eaeaea;
+  margin: 15px 0;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+.login-input input {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  outline: slategray;
+  padding: 18px 15px;
+}
+.login-input ion-icon {
+  margin-left: 15px;
+  width: 0.75cm;
+  color: #999;
+}
+
+.login-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-btn button {
+  flex-basis: 48%;
+  background: rgb(51, 175, 224);
+  color: #fff;
+  height: 40px;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  transition: backgroud 1s;
+}
+.login-btn button:hover {
+  background-color: rgb(11, 14, 100);
+  border-color: rgb(11, 14, 100);
+  color: #dddddd;
+}
+
+/*OSP VERIFICATION FORM*/
+
+main form ul {
+  list-style: none;
+}
+
+main form ul li {
+  padding: 5px 0;
+  margin: 8px;
+}
+
+.navbtnsOSP {
+  padding-top: 5px;
+  padding-left: 39%;
+}
+
+/*OWNER CERTIFICATION FORM*/
+.navbtnsOwnCert {
+  padding-top: 5px;
+  padding-left: 39%;
+}
+
+/***********MEDICAL DIRECTOR AGREEMENT FORM********/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.form-padding {
+  width: 90%;
+  max-width: 750px;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -21%);
+  background: #fbfbfe;
+  padding: 40px 50px 60px;
+}
+
+.form-padding legend {
+  font-size: 0.68cm;
+  text-align: center;
+}
+
+body p {
+  padding: 15px 1;
+  margin: 15px;
+}
+
+header img {
+  padding-left: 1300px;
+  padding-bottom: 20px;
+  padding-top: 5px;
+}
+
+.med-sign {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.med-info {
+  text-align: center;
+}
+
+.navbtnsMDA {
+  margin-top: 4px;
+  padding-left: 25%;
+}
+
+/************SERVICE REPORT*************/
+.companyInfo {
+  padding-left: 0px;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.serviceInfo {
+  font-size: 15px;
+  float: right;
+  display: table-cell;
+  vertical-align: right;
+  margin-right: 100px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  text-align: left;
+}
+
+.status {
+  padding-left: 0px;
+  font-size: 15px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.address-input {
+  padding-bottom: 50px;
+  padding-left: 30px;
+}
+
+.address-input h4 {
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+
+.officers-input {
+  padding-bottom: 50px;
+  padding-left: 30px;
+}
+
+.waivers-input {
+  padding-bottom: 50px;
+  padding-left: 30px;
+}
+
+.vehicles-input {
+  padding-bottom: 50px;
+  padding-left: 30px;
+}
+
+form label {
+  font-size: 14px;
+}
+
+
+/**********MEDICAL REVIEW COMITTEE****************/
+.updateService {
+  margin: 20px;
+}
+.input-group {
+  margin-left: 20px;
+}
+.med-buttons {
+  margin-left: 20px;
+}
+
+.navbtnsMRC {
+  margin-top: 4px;
+}
+
+/**********QA OFFICER DESIGNATION FORM***********/
+main fieldset div h4 {
+  padding-bottom: 10px;
+}
+
+.padding_QAO {
+  padding: 5px;
+}
+
+.navbtnsQAO {
+  margin-top: 4px;
+  padding-left: 36%;
+}
+
+/************SCT MEDICATION LIST***************/
+#osp-verification legend {
+  margin-bottom: 10px;
+}
+
+#medications {
+  border-collapse: collapse;
+  width: 90%;
+}
+
+#osp-verification td,
+th {
+  border: 2px solid #dddddd;
+}
+#osp-verification th {
+  text-align: left;
+  padding-bottom: 8px;
+}
+#medications td {
+  padding: 8px;
+}
+
+#medications tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.SCT-signature {
+  text-align: center;
+  border: 3px grey;
+  border-style: ridge;
+  padding: 20px;
+}
+
+.addbtnSCTM{
+    translate: -16px 4px 50px;
+}
+.navbtnsSCTM{
+    margin-top: 8px;
+    padding-left: 39%;
+}
+/************SCT PERSONNEL LIST*****************/
+
+#sct-personnel .service-id {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border: 2px solid rgb(97, 96, 96);
+}
+
+#sct-personnel td,
+th {
+  border: 2px solid #dddddd;
+}
+
+#sct-personnel td {
+  text-align: center;
+}
+.addbtnSCTP {
+  translate: -18px -2px 50px;
+}
+
+.navbtnsSCTP {
+  padding-left: 39%;
+  padding-top: 15px;
+  margin-bottom: 5px;
+}

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Service Report</title>
+    <link rel="stylesheet" href="../css/main.css" />
+  </head>
+  <body>
+    <header>
+      <h2>MARYLAND INSTITUTE FOR EMERGENCY MEDICAL SERVICES SYSTEMS</h2>
+      <address>
+        State Office of Commercial Ambulance Licensing and Regulation <br />
+        653 West Pratt Street, Room 313 <br />
+        Baltimore, Maryland 21201<br />
+        <a
+          href="mailto:SOCALR@miemss.org?subject=Service%20Report%20form%20related%20help%20"
+          style="color: rgb(251, 8, 8)"
+          >SOCALR@miemss.org</a
+        ><br />
+        Phone 410-706-8511
+      </address>
+      <div class="logo">
+        <img src="Updated-MIEMSS logo.png" alt="image is not available" />
+      </div>
+    </header>
+
+    <main>
+      <section id="service-report">
+        <form action="" method="post">
+          <fieldset>
+            <legend>
+              <em> <strong>Commercial Ambulance Service Report</strong></em>
+            </legend>
+            <br />
+
+            <div class="serviceInfo">
+              <p><strong>Service/Agency ID:</strong> [Display Here]</p>
+              <p><strong>License Status:</strong>[Display Here]</p>
+              <p><strong>License Type:</strong>[Display Here]</p>
+              <p><strong>Business Type:</strong>[Display Here]</p>
+            </div>
+
+            <div class="companyInfo">
+              <p>
+                <strong
+                  >[Ambulance Company Name] Medical Transport Services</strong
+                >
+              </p>
+            </div>
+
+            <div class="status">
+              <p>
+                <strong>Service License & Status:</strong>
+                BLS:Current|ALS:Current
+              </p>
+            </div>
+
+            <form>
+              <div class="address-input">
+                <h4><u>Addresses</u></h4>
+                <input
+                  type="Address Type"
+                  class="input"
+                  name="addType[]"
+                  value=""
+                  placeholder="Address Type"
+                />
+                <input
+                  type="Address"
+                  class="input"
+                  name="address[]"
+                  value=""
+                  placeholder="Address"
+                />
+                <input
+                  type="city"
+                  class="input"
+                  name="city[]"
+                  value=""
+                  placeholder="City"
+                />
+                <input
+                  type="state"
+                  class="input"
+                  name="state[]"
+                  value=""
+                  placeholder="State"
+                />
+                <input
+                  type="zipCode"
+                  class="input"
+                  name="zip[]"
+                  value=""
+                  placeholder="Zip Code"
+                />
+                <input
+                  type="phone"
+                  class="input"
+                  name="phone[]"
+                  value=""
+                  placeholder="Phone Number"
+                />
+              </div>
+              <div class="officers-input">
+                <h4><u>Officers</u></h4>
+                <label>Officer Name</label>
+                <input
+                  type="name"
+                  class="input"
+                  name="name[]"
+                  value=""
+                  placeholder="Officer Name"
+                />
+                <label>Roles</label>
+                <input
+                  type="Role"
+                  class="input"
+                  name="role[]"
+                  value=""
+                  placeholder="Role"
+                />
+                <label>Title</label>
+                <input
+                  type="title"
+                  class="input"
+                  name="title[]"
+                  value=""
+                  placeholder="Title"
+                />
+                <label> Email Address</label>
+                <input
+                  type="email"
+                  class="input"
+                  name="email[]"
+                  value=""
+                  placeholder="Email"
+                />
+                <label>Primary Phone</label>
+                <input
+                  type="phone"
+                  class="input"
+                  name="phone[]"
+                  value=""
+                  placeholder=""
+                />
+              </div>
+              <div class="waivers-input">
+                <h4><u>Waivers</u></h4>
+                <input
+                  type="waiver"
+                  class="input"
+                  name="waiver[]"
+                  value=""
+                  placeholder="Waiver Name"
+                />
+                <input
+                  type="startDate"
+                  class="input"
+                  name="startDate[]"
+                  value=""
+                  placeholder="Effective Date"
+                />
+                <input
+                  type="expires"
+                  class="input"
+                  name="expires[]"
+                  value=""
+                  placeholder="Expiration Date"
+                />
+                <input
+                  type="description"
+                  class="input"
+                  name="text[]"
+                  value=""
+                  placeholder="Description"
+                />
+              </div>
+              <div class="vehicles-input">
+                <h4><u>Vehicles</u></h4>
+                <label>Unit #</label>
+                <input
+                  type="unitNum"
+                  class="input"
+                  name="unitNum[]"
+                  value=""
+                  placeholder="Enter Unit #"
+                />
+                <label>VIN</label>
+                <input
+                  type="VIN"
+                  class="input"
+                  name="VIN[]"
+                  value=""
+                  placeholder="enter VIN"
+                />
+                <label>Year</label>
+                <input
+                  type="year"
+                  class="input"
+                  name="year[]"
+                  value=""
+                  placeholder="Enter Year"
+                />
+                <label>Tag #</label>
+                <input
+                  type="tagNum"
+                  class="input"
+                  name="tagNum[]"
+                  value=""
+                  placeholder="Enter Tag #"
+                />
+                <label>Status</label>
+                <input
+                  type="Status"
+                  class="input"
+                  name="year[]"
+                  value="Current"
+                  placeholder="Enter Year"
+                />
+                <label>Control #</label>
+                <input
+                  type="control"
+                  class="input"
+                  name="cntrlNum[]"
+                  value="711281"
+                  placeholder="Enter Control #"
+                />
+              </div>
+            </form>
+
+            <p>
+              <input type="checkbox" name="SRVerification" id="SR" /><strong>
+                I verify that the information contained in this report is
+                accurate
+              </strong>
+            </p>
+            <br />
+
+            <div>
+              <label> <strong>Signature (Full Name)</strong></label>
+              <input name="App signture" />
+
+              <label>Date:</label>
+              <input name="Date" />
+            </div>
+            <br />
+            <div class="navbtnsSR">
+              <button type="button" class="prevbtn">
+                <span class="prevbtn_icon"
+                  ><ion-icon name="skip-backward"></ion-icon
+                ></span>
+                <span class="prevbtn_txt">Previous</span>
+              </button>
+
+              <button type="button" class="nextbtn">
+                <span class="nextbtn_txt">Next</span>
+                <span class="nextbtn_icon"
+                  ><ion-icon name="skip-forward"></ion-icon
+                ></span>
+              </button>
+
+              <button type="save" class="save">
+                <span class="save_txt">Save</span>
+                <span class="save_icon"><ion-icon name="save"></ion-icon></span>
+              </button>
+            </div>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
+</html>
